@@ -20,10 +20,9 @@ public class UserTest {
         User staff = new Staff();
         User editor = new Editor();
 
-       /*
-        user.printUserType();
-        staff.postAReview();
-        Staff.approveReview(); */
+        // user.printUserType();
+        // staff.postAReview();
+        //Staff.approveReview();
 
         UserTest ut = new UserTest();
 

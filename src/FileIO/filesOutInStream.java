@@ -15,6 +15,8 @@ public class filesOutInStream {
         for(int i=0;i< s.length();i++) {
             fout.write(ch[i]);
         }
+        fout.close();
+
         System.out.println("File Size "+ f1.length());
 
         int j;
@@ -25,6 +27,7 @@ public class filesOutInStream {
                 System.out.print((char)j);
             }
         }while(j!=-1);
-        fout.close();
+        fin.close();
+
     }
 }
