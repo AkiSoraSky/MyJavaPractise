@@ -1,4 +1,4 @@
-package practiseJava;
+package extraJava;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
